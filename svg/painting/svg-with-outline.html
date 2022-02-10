@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<title>CSS outline</title>
+<link rel="match" href="svg-with-outline-ref.html">
+
+<style>
+body { margin: 0; padding: 0; }
+.test1 {
+  outline: 2px solid blue;
+}
+.test2 {
+  outline: 1px solid blue;
+  outline-offset: 2px;
+}
+</style>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="50px" height="120px" viewBox="0 0 50 120">
+  <rect class="test1" x="10" y="10" width="20" height="20" fill="salmon"/>
+
+  <rect class="test2" x="10" y="50" width="20" height="20" fill="salmon"/>
+</svg>
+
